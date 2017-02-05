@@ -1,0 +1,134 @@
+{
+    "version": 1,
+    "script_version": "3.5.425",
+    "aliases": {},
+    "settings": {
+        "advanced_settings": true,
+        "favorite_settings": [
+            "chat_separators",
+            "chat_font_family",
+            "chat_font_size",
+            "high_contrast_chat",
+            "chat_padding",
+            "emote_alignment",
+            "right_column_width",
+            "chat_ts_size",
+            "twenty_four_timestamps"
+        ],
+        "twenty_four_timestamps": 1,
+        "timestamp_seconds": true,
+        "bits_pinned": 0,
+        "chatter_count": true,
+        "channel_bar_bottom": false,
+        "channel_bar_collapse": true,
+        "player_stats": true,
+        "classic_player": false,
+        "player_volume_bar": false,
+        "portrait_mode": 0,
+        "minimize_navigation": false,
+        "replace_bad_emotes": false,
+        "parse_emoji": 3,
+        "filter_whispered_links": false,
+        "clickable_emoticons": true,
+        "link_image_hover": true,
+        "chat_rows": true,
+        "chat_separators": 2,
+        "emote_alignment": 0,
+        "chat_padding": true,
+        "high_contrast_chat": "121",
+        "chat_font_family": "Helvetica",
+        "chat_font_size": 13,
+        "chat_ts_size": 10,
+        "minimal_chat": 0,
+        "chat_delay": 0,
+        "prevent_clear": true,
+        "minimize_conversations": false,
+        "chat_mod_icon_visibility": 1,
+        "mod_card_hotkeys": true,
+        "timeout_notices": 2,
+        "mod_card_history": 1,
+        "mod_buttons": [
+            [
+                "C",
+                false,
+                false,
+                false
+            ],
+            [
+                "1",
+                600,
+                false,
+                false
+            ],
+            [
+                "T",
+                "/timeout 150 {user}",
+                false,
+                false
+            ]
+        ],
+        "input_complete_keys": true,
+        "input_emoticons_case_sensitive": false,
+        "input_complete_without_prefix": false,
+        "directory_group_hosts": false,
+        "recommended_above_hosts": true,
+        "follow_buttons": false,
+        "global_emotes_in_menu": true,
+        "emote_menu_collapsed": [
+            "ffz-3",
+            "twitch-0",
+            "emoji-activity",
+            "emoji-food",
+            "emoji-people",
+            "twitch-19194",
+            "twitch-42",
+            "twitch-218",
+            "twitch-14233",
+            "emoji-symbols",
+            "twitch-33"
+        ],
+        "favorite_emotes": {
+            "twitch-0": [
+                33,
+                90075,
+                58765,
+                88,
+                58136,
+                360,
+                64138,
+                358
+            ],
+            "twitch-19194": [
+                115845,
+                115844,
+                115846
+            ],
+            "twitch-218": [
+                78588,
+                8903,
+                98647,
+                91311,
+                118810,
+                120444,
+                120445,
+                79014,
+                138864
+            ],
+            "twitch-14233": [
+                65618,
+                65608,
+                65609,
+                65742,
+                65617,
+                65741
+            ],
+            "emoji": [
+                "😩"
+            ],
+            "twitch-33": [
+                432
+            ]
+        },
+        "warp_world": false
+    }
+}
