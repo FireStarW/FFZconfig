@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "script_version": "3.5.425",
+    "script_version": "3.5.510",
     "aliases": {},
     "settings": {
         "advanced_settings": true,
@@ -13,7 +13,8 @@
             "emote_alignment",
             "right_column_width",
             "chat_ts_size",
-            "twenty_four_timestamps"
+            "twenty_four_timestamps",
+            "minimize_navigation"
         ],
         "twenty_four_timestamps": 1,
         "timestamp_seconds": true,
@@ -21,32 +22,33 @@
         "chatter_count": true,
         "channel_bar_bottom": false,
         "channel_bar_collapse": true,
-        "player_stats": true,
+        "player_stats": -1,
         "classic_player": false,
         "player_volume_bar": false,
         "portrait_mode": 0,
-        "minimize_navigation": false,
+        "swap_sidebars": false,
+        "minimize_navigation": true,
         "replace_bad_emotes": false,
         "parse_emoji": 3,
         "filter_whispered_links": false,
         "clickable_emoticons": true,
         "link_image_hover": true,
-        "chat_rows": true,
+        "chat_rows": 3,
         "chat_separators": 2,
         "emote_alignment": 0,
         "chat_padding": true,
         "high_contrast_chat": "121",
-        "chat_font_family": "Helvetica",
+        "chat_font_family": "Ubuntu",
         "chat_font_size": 13,
         "chat_ts_size": 10,
         "minimal_chat": 0,
         "chat_delay": 0,
         "prevent_clear": true,
-        "minimize_conversations": false,
-        "chat_mod_icon_visibility": 1,
-        "mod_card_hotkeys": true,
+        "minimize_conversations": true,
+        "chat_mod_icon_visibility": 0,
+        "mod_card_hotkeys": false,
         "timeout_notices": 2,
-        "mod_card_history": 1,
+        "mod_card_history": 2,
         "mod_buttons": [
             [
                 "C",
@@ -68,15 +70,21 @@
             ]
         ],
         "input_complete_keys": true,
+        "input_complete_name_require_at": true,
         "input_emoticons_case_sensitive": false,
         "input_complete_without_prefix": false,
         "directory_group_hosts": false,
         "recommended_above_hosts": true,
+        "sidebar_hide_friends_collapsed": false,
+        "top_nav_color": "",
+        "twitch_chat_dark": false,
+        "dark_twitch": false,
+        "dark_no_blue": false,
+        "dashboard_feed": false,
         "follow_buttons": false,
         "global_emotes_in_menu": true,
         "emote_menu_collapsed": [
             "ffz-3",
-            "twitch-0",
             "emoji-activity",
             "emoji-food",
             "emoji-people",
@@ -85,7 +93,14 @@
             "twitch-218",
             "twitch-14233",
             "emoji-symbols",
-            "twitch-33"
+            "twitch-33",
+            "twitch-17542",
+            "twitch-18191",
+            "twitch-0",
+            "twitch-5688",
+            "twitch-inventory",
+            "twitch-8588",
+            "twitch-6777"
         ],
         "favorite_emotes": {
             "twitch-0": [
@@ -96,12 +111,23 @@
                 58136,
                 360,
                 64138,
-                358
+                358,
+                160400,
+                160401,
+                160404,
+                160403,
+                160394,
+                160396,
+                323914,
+                100590
             ],
             "twitch-19194": [
                 115845,
                 115844,
-                115846
+                115846,
+                253059,
+                253040,
+                253035
             ],
             "twitch-218": [
                 78588,
@@ -112,7 +138,9 @@
                 120444,
                 120445,
                 79014,
-                138864
+                138864,
+                189586,
+                98649
             ],
             "twitch-14233": [
                 65618,
@@ -123,10 +151,86 @@
                 65741
             ],
             "emoji": [
-                "😩"
+                "🌶"
             ],
             "twitch-33": [
-                432
+                432,
+                437
+            ],
+            "twitch-18191": [
+                106046,
+                106050,
+                106048
+            ],
+            "twitch-17542": [
+                174985,
+                103045,
+                102347,
+                146122,
+                117693,
+                99516,
+                116746,
+                99561,
+                181234,
+                184948
+            ],
+            "twitch-5688": [
+                92606,
+                124197,
+                48673,
+                92464,
+                124196,
+                171436,
+                17384,
+                92460,
+                37758,
+                124194,
+                168193,
+                92462,
+                168195,
+                37757,
+                168197,
+                68749,
+                124238,
+                124237,
+                19147,
+                20439
+            ],
+            "twitch-inventory": [
+                192362
+            ],
+            "twitch-8588": [
+                259205,
+                75976,
+                94402,
+                94033,
+                183376,
+                95285,
+                117711,
+                122714,
+                28551,
+                27061,
+                81893,
+                117376,
+                94618,
+                94215,
+                117372,
+                183375,
+                313818,
+                117378,
+                289797
+            ],
+            "twitch-6777": [
+                116192,
+                116191,
+                293060,
+                94514,
+                181883,
+                121630,
+                142017
+            ],
+            "ffz-41146": [
+                136379
             ]
         },
         "warp_world": false
